@@ -10,4 +10,8 @@ composer install
 
 ./vendor/bin/sail up -d
 
-http://localhost
+./vendor/bin/sail php artisan key:generate
+
+Try this http://localhost
+
+Or Try this with parameter http://localhost?limit=5
